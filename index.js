@@ -13,7 +13,7 @@ var objects = {cake: 'egg'}
 var newObj = Object.assign({}, object)
 
 function deleteFromObjectByKey(object, key){
-  delete newObj.cake
+  delete newObj[key]
   return newObj
 }
 
