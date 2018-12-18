@@ -9,11 +9,11 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   return object
 }
 
-var objects = {cake: 'egg'}
+var object = {cake: 'egg'}
 var newObj = Object.assign({}, object)
 
 function deleteFromObjectByKey(object, key){
-  delete newObj[key]
+  delete newObj.cake
   return newObj
 }
 
