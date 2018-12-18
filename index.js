@@ -17,10 +17,8 @@ function deleteFromObjectByKey(object, key){
   return newObj
 }
 
-const objectt = {cake: 'egg'}
-
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  delete object.key
+  delete object[key]
   return object
 }
